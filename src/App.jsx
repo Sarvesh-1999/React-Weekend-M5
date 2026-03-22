@@ -10,14 +10,21 @@ import Parent from "./AllTopics/06_Context/Parent";
 import ReducerCounter from "./AllTopics/07_Reducer/ReducerCounter";
 import ControlledForms1 from "./AllTopics/08_Forms/ControlledForms1";
 import ControlledForms2 from "./AllTopics/08_Forms/ControlledForms2";
+import UncontrolledForms from "./AllTopics/08_Forms/UncontrolledForms";
+import LifeCycleInFbc from "./AllTopics/09_LifeCycle/LifeCycleInFbc";
+import LifeCycleInCbc from "./AllTopics/09_LifeCycle/LifyCycleInCbc";
 
 function App() {
   return (
     <div>
       {/* <StatesInFbc /> */}
+      
       {/* <Dropdown/> */}
+      
       {/* <PropsParent /> */}
+      
       {/* <DrillingParent /> */}
+      
       {/* <CallbackParent /> */}
 
       {/* <ContextProvider>
@@ -28,7 +35,13 @@ function App() {
 
       {/* <ControlledForms1 /> */}
 
-      <ControlledForms2 />
+      {/* <ControlledForms2 /> */}
+
+      {/* <UncontrolledForms/> */}
+
+      {/* <LifeCycleInCbc/> */}
+
+      <LifeCycleInFbc/>
     </div>
   );
 }
