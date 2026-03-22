@@ -9,6 +9,7 @@ import ContextProvider from "./AllTopics/06_Context/ContextProvider";
 import Parent from "./AllTopics/06_Context/Parent";
 import ReducerCounter from "./AllTopics/07_Reducer/ReducerCounter";
 import ControlledForms1 from "./AllTopics/08_Forms/ControlledForms1";
+import ControlledForms2 from "./AllTopics/08_Forms/ControlledForms2";
 
 function App() {
   return (
@@ -25,7 +26,9 @@ function App() {
 
       {/* <ReducerCounter /> */}
 
-      <ControlledForms1 />
+      {/* <ControlledForms1 /> */}
+
+      <ControlledForms2 />
     </div>
   );
 }
