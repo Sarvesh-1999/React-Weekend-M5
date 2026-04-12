@@ -13,18 +13,21 @@ import ControlledForms2 from "./AllTopics/08_Forms/ControlledForms2";
 import UncontrolledForms from "./AllTopics/08_Forms/UncontrolledForms";
 import LifeCycleInFbc from "./AllTopics/09_LifeCycle/LifeCycleInFbc";
 import LifeCycleInCbc from "./AllTopics/09_LifeCycle/LifyCycleInCbc";
+import FetchProducts from "./AllTopics/10_FetchApi/FetchProducts";
+import FetchUsers from "./AllTopics/10_FetchApi/FetchUsers";
+import Optimization from "./AllTopics/12_Optimization/Optimization";
 
 function App() {
   return (
     <div>
       {/* <StatesInFbc /> */}
-      
+
       {/* <Dropdown/> */}
-      
+
       {/* <PropsParent /> */}
-      
+
       {/* <DrillingParent /> */}
-      
+
       {/* <CallbackParent /> */}
 
       {/* <ContextProvider>
@@ -41,7 +44,13 @@ function App() {
 
       {/* <LifeCycleInCbc/> */}
 
-      <LifeCycleInFbc/>
+      {/* <LifeCycleInFbc/> */}
+
+      {/* <FetchUsers /> */}
+
+      {/* <FetchProducts/> */}
+
+      <Optimization />
     </div>
   );
 }
