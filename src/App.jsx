@@ -16,6 +16,9 @@ import LifeCycleInCbc from "./AllTopics/09_LifeCycle/LifyCycleInCbc";
 import FetchProducts from "./AllTopics/10_FetchApi/FetchProducts";
 import FetchUsers from "./AllTopics/10_FetchApi/FetchUsers";
 import Optimization from "./AllTopics/12_Optimization/Optimization";
+import Routing1 from "./AllTopics/13_Routing/Routing1";
+import Routing2 from "./AllTopics/13_Routing/Routing2";
+import ReduxApp from "./AllTopics/15_ReduxApp/ReduxApp";
 
 function App() {
   return (
@@ -50,7 +53,13 @@ function App() {
 
       {/* <FetchProducts/> */}
 
-      <Optimization />
+      {/* <Optimization /> */}
+
+      {/* <Routing1 /> */}
+
+      {/* <Routing2 /> */}
+
+      <ReduxApp />
     </div>
   );
 }
