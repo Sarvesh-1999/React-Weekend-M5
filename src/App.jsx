@@ -18,6 +18,7 @@ import FetchUsers from "./AllTopics/10_FetchApi/FetchUsers";
 import Optimization from "./AllTopics/12_Optimization/Optimization";
 import Routing1 from "./AllTopics/13_Routing/Routing1";
 import Routing2 from "./AllTopics/13_Routing/Routing2";
+import CrudApp from "./AllTopics/14_CrudApp/CrudApp";
 import ReduxApp from "./AllTopics/15_ReduxApp/ReduxApp";
 
 function App() {
@@ -59,7 +60,9 @@ function App() {
 
       {/* <Routing2 /> */}
 
-      <ReduxApp />
+      {/* <ReduxApp /> */}
+
+      <CrudApp />
     </div>
   );
 }
